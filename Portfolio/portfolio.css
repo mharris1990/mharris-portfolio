@@ -1,0 +1,76 @@
+body {
+  background-color:slateblue;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item-left {
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+  }
+  
+.nav {
+  display:flex;
+  justify-content: space-between;
+  background-color:midnightblue
+}
+
+.nav h1 {
+color:white;
+text-decoration: none;
+}
+
+.nav ul {
+  list-style:none;
+}
+
+.nav li {
+  display:inline;
+}
+
+.nav a {
+  color:white;
+  text-decoration:none;
+}
+
+.container {
+  display:flex;
+  justify-content: space-between;
+}
+
+.second-container {
+  color:white;
+  list-style:none;
+}
+
+.projects h2 {
+  color:white;
+  text-decoration: none;
+}
+
+.contact-info ul {
+  list-style:none;
+}
+
+.contact-info li {
+  display:inline;
+}
+
+.contact-info a{
+  color:white;
+  text-decoration:none;
+}
+
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+  
